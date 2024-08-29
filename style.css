@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color: black;
+}
+.main{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    z-index: 10;
+}
+#hh{
+    margin-top:5px;
+}
+.divlist{
+    margin-right: 10px;
+    width: 500px;
+}
+.d01{
+    margin-left:10px;
+}
+.lii:hover{
+    background-color: rgb(95, 5, 5);
+}
+.ul1{
+    margin-top: 18px;
+    width: 500px;
+    display:flex;
+    justify-content: space-between;
+}
+#mypic{
+    margin-top: 50px;
+    height: 400px;
+    width: 300px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.ul1 li{
+    list-style: none;
+    display: inline;
+    color: white;
+}
+#a1{
+    font-size: xx-large;
+}
+.welcome{
+    background-image: url(background.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height: 700px;
+    text-align: center;
+    padding-top: 120px;
+}
+.about{
+    border: 2px solid red;
+    border-top: 4px solid red ;
+    background-color: black;
+    height: 650px;
+}
+.pro{
+    border: 2px solid red;
+    border-top: 3px solid red;
+    border-bottom: 0;
+    background-color: black;
+    height: 650px;
+}
+h1{
+    color: white;
+}
+h2{
+    color:white;
+}
+
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between icons */
+    padding: 20px;
+}
+
+.social-icon {
+    text-decoration: none;
+    color: #333; /* Default color */
+    font-size: 24px; /* Size of icons */
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #007bff; /* Color on hover */
+}
+
+/* Optional: Add specific colors for each social media icon */
+.social-icon.facebook {
+    color: #3b5998;
+}
+
+.social-icon.twitter {
+    color: #1da1f2;
+}
+
+.social-icon.instagram {
+    color: #c13584;
+}
+#head{
+    color: rgb(199, 44, 44);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#p1{
+    text-align: justify;
+    font-size: larger;
+    margin-top: 20px;;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+#ul2{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: larger;
+}
+#f{
+    text-align: center;
+    height: 50px;
+    border: 2px solid red;
+    border-top: 0;
+}
+#h03{
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+@media (max-width:300px){
+
+    #mypic{
+        height:132px;
+        width:99px;
+    }
+    .main{
+        display: inline-block;
+    }    
+    #p1{
+        font-size: x-small;
+    }
+    #a1{
+        font-size: small;
+    }
+    #ul2{
+        font-size: x-small;
+    }
+    .divlist{
+        width:100vw;
+    }
+    .ul1{
+        width:100vw;
+    }
+    #h1m{
+        font-size:small;
+    }
+    #hh{
+        font-size: small;
+    }
+    .d01{
+        text-align: center;
+    }
+    #head{
+        font-size: small;
+    }
+    .about{
+        width:100vw;
+        height: 820px;
+    }
+    .pro{
+        width:100vw;
+        height: 820px;
+    }
+    .lii{
+        font-size: x-small;
+    }
+    #pf{
+        font-size: x-small;
+    }
+}
+@media (min-width:300px) and (max-width:480px){
+    #mypic{
+        height: 264px;
+        width:192px;
+    }
+.main{
+    display: inline-block;
+}    
+#p1{
+    font-size: small;
+}
+#a1{
+    font-size: medium;
+}
+#ul2{
+    font-size: small;
+}
+.divlist{
+    width:100vw;
+}
+.ul1{
+    width:100vw;
+}
+#h1m{
+    font-size:medium;
+}
+#hh{
+    font-size: medium;
+}
+.d01{
+    text-align: center;
+}
+#head{
+    font-size: medium;
+}
+.about{
+    width:100vw;
+    height: 820px;
+}
+.pro{
+    width:100vw;
+    height: 820px;
+}
+#pf{
+    font-size: x-small;
+}
+.lii{
+    font-size: small;
+}
+}
+@media (min-width:481px) and (max-width:836px){
+    #a1{
+        font-size: large;
+    }
+    .main{
+        display: inline-block;
+    }
+    .divlist{
+        width:100vw;
+    }
+    .ul1{
+        width:100vw;
+    }
+    #h1m{
+        font-size: large;
+    }
+    #hh{
+        font-size: 20px;
+    }
+    .d01{
+        text-align: center;
+    }
+    #head{
+        font-size: large;
+    }
+    .pro{
+        height: 800px;
+    }
+    .about{
+        height:800px;
+    }
+
+
+}
